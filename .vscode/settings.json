@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "isAsync": true,
+                "cmd": "leptosfmt ./frontend/**/*_component.rs --config-file ./frontend/leptosfmt.toml"
+            }
+        ]
+    }
+}
